@@ -1,8 +1,10 @@
-text = """
-
-   """
-
-mylist = ["", "", ""]
+text= 
+"""
+"""
+lst = text.splitlines()
+print(lst)
+mylist = [" ", " " ]
 for index in mylist:
-if (index in text):
-print(index)
+    for line in lst:
+        if index in line:
+            print('The Word :'  , index , "- The Line : " , lst.index(line)+1)
