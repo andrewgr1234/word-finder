@@ -1,5 +1,4 @@
-text= 
-"""
+text= """
 
 """
 lst = text.splitlines()
