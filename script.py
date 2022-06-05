@@ -1,5 +1,6 @@
 text= 
 """
+
 """
 lst = text.splitlines()
 print(lst)
